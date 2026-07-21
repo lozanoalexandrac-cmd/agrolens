@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AgroLens es un proyecto de tesis que busca ayudar a los productores a detectar anomalías en campo, priorizar inspecciones y tomar decisiones con evidencia visual." />
+  <title>AgroLens | Le da ojos al fundo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="AgroLens inicio">
+        <span class="brand-mark">🍃</span>
+        <span class="brand-text">AgroLens</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#problema">Problema</a>
+        <a href="#solucion">Solución</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#valor">Valor</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-soft">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Proyecto de tesis · Validación de negocio</span>
+          <h1>AgroLens <br><span>le da ojos al fundo</span></h1>
+          <p>
+            Usamos drones y visión por computador para ayudar a productores y equipos técnicos
+            a entender mejor lo que ocurre en campo, detectar anomalías a tiempo, priorizar
+            inspecciones y tomar decisiones con evidencia.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#como-funciona">Ver cómo funciona</a>
+            <a class="btn btn-secondary" href="#solucion">Explorar solución</a>
+          </div>
+
+          <div class="mini-proof">
+            <div class="mini-proof-card">
+              <strong>Dron</strong>
+              <span>captura aérea ordenada</span>
+            </div>
+            <div class="mini-proof-card">
+              <strong>IA</strong>
+              <span>análisis de anomalías</span>
+            </div>
+            <div class="mini-proof-card">
+              <strong>Reporte</strong>
+              <span>insumos para decidir</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card main-screen">
+            <img src="assets/images/dashboard-agrolens.png" alt="Simulación de dashboard de AgroLens con mapa de riesgo y alertas" />
+          </div>
+          <div class="floating-card floating-report">
+            <img src="assets/images/reporte-agrolens.png" alt="Simulación de reporte de análisis de campo AgroLens" />
+          </div>
+          <div class="floating-badge drone-badge">Dron → IA → Dashboard</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="problema">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="section-kicker">1. El problema</span>
+          <h2>Ver el campo completo a tiempo sigue siendo difícil</h2>
+          <p>
+            En fundos grandes, recorrer todo manualmente toma tiempo. Muchas señales aparecen
+            tarde, la información queda dispersa y priorizar acciones se vuelve más complejo.
+          </p>
+        </div>
+
+        <div class="card-grid four">
+          <article class="info-card">
+            <div class="icon-badge">🌾</div>
+            <h3>Campos grandes, difíciles de inspeccionar</h3>
+            <p>Recorrer todo el fundo exige tiempo, coordinación y recursos.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon-badge">🐞</div>
+            <h3>Señales detectadas tarde</h3>
+            <p>Plagas, enfermedades o estrés pueden avanzar antes de hacerse visibles.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon-badge">🔎</div>
+            <h3>Información dispersa y poco sistemática</h3>
+            <p>Fotos, notas y reportes sueltos dificultan comparar, seguir y aprender.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon-badge">📊</div>
+            <h3>Decisiones con poca evidencia</h3>
+            <p>Sin una visión clara del campo, es difícil decidir dónde actuar primero.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="solucion">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="section-kicker">2. Nuestra solución</span>
+          <h2>AgroLens convierte imágenes en información útil</h2>
+          <p>
+            La propuesta combina captura aérea, análisis con IA y una presentación clara de
+            resultados para facilitar la toma de decisiones en campo.
+          </p>
+        </div>
+
+        <div class="card-grid four">
+          <article class="info-card">
+            <div class="icon-badge">🚁</div>
+            <h3>Captura aérea precisa</h3>
+            <p>Vuelos planificados para obtener imágenes consistentes del área de interés.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon-badge">🧠</div>
+            <h3>Análisis con IA</h3>
+            <p>Modelos de visión por computador detectan anomalías y patrones de riesgo.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon-badge">🗺️</div>
+            <h3>Zonas de riesgo claras</h3>
+            <p>Mapas simples para visualizar dónde están los problemas y qué tan severos son.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon-badge">📝</div>
+            <h3>Reportes accionables</h3>
+            <p>Informes resumidos con hallazgos, evidencia y posibles recomendaciones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="como-funciona">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="section-kicker">3. ¿Cómo funciona?</span>
+          <h2>Del vuelo al análisis, y del análisis a la decisión</h2>
+          <p>
+            Esta es una representación referencial del flujo que AgroLens podría ofrecer a un
+            cliente para entender mejor el estado del fundo.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-number">1</span>
+            <h3>Vuelo de dron</h3>
+            <p>Se planifica el vuelo y se capturan imágenes de alta resolución.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">2</span>
+            <h3>Procesamiento con IA</h3>
+            <p>Las imágenes se procesan para detectar señales y generar salidas analíticas.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">3</span>
+            <h3>Mapa de alertas</h3>
+            <p>Los resultados se visualizan en mapas que priorizan zonas de atención.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">4</span>
+            <h3>Reporte y decisión</h3>
+            <p>Se entrega un resumen claro para apoyar la inspección y el manejo en campo.</p>
+          </article>
+        </div>
+
+        <div class="image-showcase single">
+          <figure class="showcase-card wide">
+            <img src="assets/images/flujo-agrolens.png" alt="Simulación del flujo AgroLens desde la planificación del vuelo hasta el reporte final" />
+            <figcaption>Simulación visual del flujo: planificación, captura, procesamiento, dashboard y reporte.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-divider" id="valor">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="section-kicker">4. Propuesta de valor</span>
+          <h2>¿Qué valor podría generar AgroLens para un cliente?</h2>
+        </div>
+
+        <div class="value-grid">
+          <article class="value-item">
+            <h3>Detección temprana</h3>
+            <p>Ayuda a identificar problemas antes de que escalen y generen mayores pérdidas.</p>
+          </article>
+          <article class="value-item">
+            <h3>Priorización inteligente</h3>
+            <p>Enfoca el tiempo y los recursos en las zonas que realmente requieren atención.</p>
+          </article>
+          <article class="value-item">
+            <h3>Evidencia visual objetiva</h3>
+            <p>Mapas e imágenes que respaldan observaciones y conversaciones técnicas.</p>
+          </article>
+          <article class="value-item">
+            <h3>Trazabilidad y seguimiento</h3>
+            <p>Permite comparar análisis a lo largo del tiempo y documentar hallazgos.</p>
+          </article>
+          <article class="value-item">
+            <h3>Mejor comunicación técnica</h3>
+            <p>Presenta la información de forma más clara para campo, administración y asesores.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="beneficios">
+      <div class="container two-column-layout">
+        <div>
+          <div class="section-heading">
+            <span class="section-kicker">5. Beneficios tentativos</span>
+            <h2>Resultados que AgroLens podría habilitar</h2>
+            <p>
+              Estas cifras son referenciales y deben validarse con pruebas reales. Se presentan
+              para comunicar el valor potencial del proyecto, no como promesas cerradas.
+            </p>
+          </div>
+
+          <div class="benefit-grid">
+            <article class="stat-card">
+              <span class="stat-eyebrow">Ahorro de tiempo en inspección</span>
+              <strong>30–50%</strong>
+              <p>menos tiempo invertido en recorridos generales.</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-eyebrow">Respuesta más rápida</span>
+              <strong>Mayor agilidad</strong>
+              <p>para intervenir donde se detecten señales relevantes.</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-eyebrow">Mejor organización</span>
+              <strong>100%</strong>
+              <p>de vuelos y reportes estructurados y comparables.</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-eyebrow">Decisiones más objetivas</span>
+              <strong>Basadas en datos</strong>
+              <p>no solo en percepción o evidencia dispersa.</p>
+            </article>
+          </div>
+
+          <p class="disclaimer">*Resultados tentativos obtenidos a partir del concepto del proyecto. Pueden variar según cultivo, manejo y condiciones del fundo.</p>
+        </div>
+
+        <div>
+          <div class="section-heading">
+            <span class="section-kicker">6. Ejemplos de salidas</span>
+            <h2>Referencias visuales de lo que podría ver un cliente</h2>
+          </div>
+
+          <div class="image-showcase two-up">
+            <figure class="showcase-card">
+              <img src="assets/images/dashboard-agrolens.png" alt="Dashboard de AgroLens con mapa de riesgo, alertas y gráficos" />
+              <figcaption>Vista de dashboard con alertas, mapa de riesgo y métricas clave.</figcaption>
+            </figure>
+            <figure class="showcase-card">
+              <img src="assets/images/reporte-agrolens.png" alt="Reporte AgroLens con resumen ejecutivo y recomendaciones" />
+              <figcaption>Reporte resumido con hallazgos, nivel de riesgo y próximos pasos.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="section-kicker">7. Preguntas frecuentes</span>
+          <h2>Contexto del proyecto y alcances</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>¿Necesito un dron propio?</summary>
+            <p>No necesariamente. En esta etapa, AgroLens se presenta como un concepto/proyecto de tesis. La solución podría operar con vuelos realizados por un tercero o integrarse con drones propios en una etapa futura.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Esto reemplaza al ingeniero de campo?</summary>
+            <p>No. AgroLens sería una herramienta de apoyo. El criterio técnico sigue siendo clave para interpretar la información y decidir acciones de manejo.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿En qué etapa está el proyecto?</summary>
+            <p>AgroLens está planteado como un proyecto de tesis orientado a validar un problema, una propuesta de solución y el interés del mercado.</p>
+          </details>
+          <details class="faq-item">
+            <summary>¿Qué buscan validar con esta web?</summary>
+            <p>Buscamos entender si la propuesta es clara, si el problema resuena con potenciales clientes y si la solución genera interés suficiente para seguir desarrollándola.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark">🍃</span>
+          <span class="brand-text">AgroLens</span>
+        </div>
+        <p>Tecnología agrícola para ver más, entender mejor y decidir a tiempo.</p>
+        <p class="footer-note">Proyecto de tesis · Landing informativa para validación de negocio.</p>
+      </div>
+
+      <div>
+        <h3>Contacto</h3>
+        <ul class="footer-list">
+          <li>contacto@agrolens.pe</li>
+          <li>+51 987 654 321</li>
+          <li>Lima, Perú</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>¿Te interesa conocer más?</h3>
+        <p>Si quieres entender mejor el proyecto o dar feedback sobre la propuesta, conversemos.</p>
+        <a class="btn btn-primary btn-footer" href="mailto:contacto@agrolens.pe">Escríbenos</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© 2025 AgroLens · Proyecto de tesis.</span>
+      <a href="#top">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
