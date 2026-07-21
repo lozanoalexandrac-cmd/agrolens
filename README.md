@@ -28,7 +28,6 @@ agrolens-web/
         ├── landing-reference.png
         ├── flujo-agrolens.png
         ├── dashboard-agrolens.png
-        └── reporte-agrolens.png
 ```
 
 ## Cómo usarlo
